@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="wrap_content"
+    android:layout_height="wrap_content" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.izv.angel.updatesqlite.AgregarPartido"
+    android:background="#ffa4dd81">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/agregarP"
+        android:id="@+id/tvTituloP"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="30sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etContrincante"
+        android:layout_below="@+id/tvTituloP"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="Contrincante"
+        android:textColor="#ff000000" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etValoracion"
+        android:hint="Valoración"
+        android:inputType="number"
+        android:layout_below="@+id/etContrincante"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:textColor="#ff000000" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/aceptar"
+        android:id="@+id/bAgregarP"
+        android:onClick="agregar"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/etValoracion"
+        android:layout_marginTop="20dp"
+        android:background="#FFCC00"
+        android:padding="20dp"
+        android:textStyle="bold" />
+</RelativeLayout>

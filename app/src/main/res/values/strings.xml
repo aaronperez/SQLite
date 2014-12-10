@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="titulo">Futbol</string>
+    <string name="title_activity_secundaria">Partidos</string>
+    <string name="agregarJ">Agregar jugador</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="agregadoJ">Jugador agregado</string>
+    <string name="agregadoP">Partido agregado</string>
+    <string name="idjugador">Id. Jugador:</string>
+    <string name="contrin">Contrincante:</string>
+    <string name="valoracion">Valoracion:</string>
+    <string name="agregarP">Agregar partido</string>
+
+</resources>

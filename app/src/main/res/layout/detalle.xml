@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="#ffa4dd81">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/tvNombre"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/tvValoracion"
+        android:layout_toStartOf="@+id/tvValoracion"
+        android:textColor="#ff000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/tvTelefono"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentTop="false"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/tvNombre"
+        android:layout_alignRight="@+id/tvNombre"
+        android:layout_alignEnd="@+id/tvNombre"
+        android:textColor="#ff000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/tvFnac"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentTop="false"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/tvTelefono"
+        android:layout_alignRight="@+id/tvTelefono"
+        android:layout_alignEnd="@+id/tvTelefono"
+        android:textColor="#ff000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/tvValoracion"
+        android:layout_alignParentLeft="false"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:text="v"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:layout_alignBottom="@+id/tvFnac"
+        android:textSize="50sp"
+        android:textColor="#ff000000"
+        android:textStyle="bold"
+        android:gravity="center" />
+</RelativeLayout>

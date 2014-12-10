@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.izv.sqlite" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/launcher"
+        android:label="@string/titulo"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Main"
+            android:label="@string/titulo" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Secundaria"
+            android:label="@string/titulo" >
+        </activity>
+        <activity
+            android:name=".AgregarJugador"
+            android:label="@string/titulo" >
+        </activity>
+        <activity
+            android:name=".AgregarPartido"
+            android:label="@string/titulo" >
+        </activity>
+    </application>
+
+</manifest>
