@@ -9,7 +9,8 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name=".Main"
-            android:label="@string/titulo" >
+            android:label="@string/titulo"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,15 +19,18 @@
         </activity>
         <activity
             android:name=".Secundaria"
-            android:label="@string/titulo" >
+            android:label="@string/titulo"
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name=".AgregarJugador"
-            android:label="@string/titulo" >
+            android:label="@string/titulo"
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name=".AgregarPartido"
-            android:label="@string/titulo" >
+            android:label="@string/titulo"
+            android:screenOrientation="portrait" >
         </activity>
     </application>
 
